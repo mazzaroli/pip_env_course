@@ -4,6 +4,7 @@ import charts
 import pandas as pd
 
 def run():
+  
   '''
   data = list(filter(lambda item : item['Continent'] == 'South America',data))
   countries = list(map(lambda x: x['Country'], data))
@@ -11,7 +12,7 @@ def run():
   '''
 
   df = pd.read_csv('data.csv')
-  df = df[df['Continent'] == 'Africa']
+  df = df[df['Continent'] == 'Asia']
 
   countries = df['Country'].values
   percentages = df['World Population Percentage'].values
