@@ -1,5 +1,4 @@
-# Gmae Project
-
+# Game Project
 
 ```sh
 - cd game/
