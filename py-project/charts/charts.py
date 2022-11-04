@@ -6,6 +6,6 @@ def generate_pie_char():
 
     fig, ax = plt.subplots()
     ax.pie(values,labels=labels)
-    plt.savefig('pie.png')
+    plt.savefig('gokuuuuuuuuu.png')
     plt.close()
     
